@@ -1,1 +1,29 @@
 text file no: 2
+git clone -link
+git status
+git add /git add .
+"git rm --cached <file>...
+git commit -m "txt1.txt added" "" commit commands  -> now file/dat modified in git folder in the local system (git local folder)
+ git push origin main
+ git pull         (even to see changes like creating branches)
+ ---------------------
+ note : use pull with branch name to get updates, if there eixtsts multiple branches
+ git remote add origin
+ git branch -  (git init creates the .git repository, but a branch reference generally doesn't appear until you make the first commit.)
+
+ git remote add origin (link for remote ) ->git remote is used to manage or see the connection between your local Git repository and a remote repository, such as GitHub.
+
+ git branch -M main  (change branch name from master to main)
+ git branch -a   (list all branches )
+ git checkout banch2 (go to banch2)
+
+  git diff main   (diff between current and main branch )
+
+  git merge banch2     (being in main branch, merging banch2 with it)
+after merge, still we need to push this file into the git to see updates
+
+git branch  newbranch2 - creaing a new branch
+===============
+in real time you cant merge your code with main branch,  so we need to send a pull req to the needed person
+
+git switch

@@ -1,0 +1,32 @@
+### `git pull`
+
+**Definition:** `git pull` gets the latest changes from a remote repository and updates your current local branch.
+
+**Syntax:**
+
+```bash
+git pull <remote> <branch>
+```
+
+**Condition:** Use the branch name when you want to pull updates from a specific remote branch, especially when there are multiple branches.
+
+**Example:**
+
+```bash
+git pull origin main
+```
+
+This gets the latest changes from the `main` branch on GitHub.
+
+**With multiple branches:**
+
+```bash
+git pull origin feature
+```
+
+This gets the latest changes from the `feature` branch.
+==================
+If you are inside feature and run just git pull, you normally get updates from feature's remote branch, not from main.
+Even though main has a new update, your feature branch does not automatically get it.
+
+f you want main's updates inside feature do -> git pull origin main
